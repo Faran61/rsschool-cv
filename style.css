@@ -1,0 +1,113 @@
+body{
+  background-color: #f6bdf2;
+  flex-direction: column;
+  justify-content: space-between;
+}
+img{
+  width: 500px;
+  border-radius: 130px;
+  border: 1px solid black;
+  height: 250px;
+}
+#frontend{
+  font-family: 'Joan', serif;
+  font-size: 28px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+#farangiz-khojimatova{
+  font-family: 'Joan', serif;
+  font-size: 50px;
+
+}
+.header{
+  background-color: #d1dafa;
+  border-radius: 10px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.list{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+ul.list li+li:before {
+  color: #051980;
+  content: "/\00a0";
+}
+.option{
+  position: relative;
+  padding: 0 50px;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #051980;
+  font-family: 'Nuosu SIL', serif;
+}
+
+.main-container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 26px;
+  padding: 0 60px;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  width: 100%;
+
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  font-family: 'Joan', serif;
+}
+#about-me{
+  font-size: 35px;
+}
+p{
+  font-size: 18px;
+}
+.container-info{
+  display: inline-block;
+  margin: auto;
+  background-color: #ffffff;
+  padding-left: 20px;
+  border-radius: 20px;
+  font-family: 'Joan', serif;
+}
+.restaurant{
+  text-decoration: underline;
+  color: #051980;
+}
+.highlighter-rouge{
+  font-size: 15px;
+}
+.rsschool-cv {
+  width: 130px;
+  height: 53px;
+  background-image: url("https://rs.school/images/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:10px auto 0 40px;
+  color: #051980;
+  font-size: 29px;
+  font-weight: bold;
+}
+.github-link {
+  color: #051980;
+  text-decoration: underline;
+  padding-left: 150px;
+}
