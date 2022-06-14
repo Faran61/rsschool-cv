@@ -4,7 +4,7 @@ body{
   justify-content: space-between;
 }
 img{
-  width: 500px;
+  width: 290px;
   border-radius: 130px;
   border: 1px solid black;
   height: 250px;
@@ -63,11 +63,9 @@ ul.list li+li:before {
   width: 100%;
 
 }
-.about{
-  display: flex;
-  flex-direction: column;
-  width: 65%;
+#about-me{
   font-family: 'Joan', serif;
+  position: relative;
 }
 #about-me{
   font-size: 35px;
@@ -75,13 +73,13 @@ ul.list li+li:before {
 p{
   font-size: 18px;
 }
-.container-info{
-  display: inline-block;
-  margin: auto;
+.section{
   background-color: #ffffff;
   padding-left: 20px;
   border-radius: 20px;
   font-family: 'Joan', serif;
+  min-height: 100%;
+
 }
 .restaurant{
   text-decoration: underline;
@@ -96,12 +94,13 @@ p{
   background-image: url("https://rs.school/images/rs_school_js.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
 }
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:10px auto 0 40px;
+  margin:0 auto;
   color: #051980;
   font-size: 29px;
   font-weight: bold;
@@ -110,4 +109,10 @@ p{
   color: #051980;
   text-decoration: underline;
   padding-left: 150px;
+}
+.footer {
+  padding: 20px;
+}
+.profile-info{
+  justify-content: center;
 }
